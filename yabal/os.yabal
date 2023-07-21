@@ -37,7 +37,7 @@ foregroundColor = outputTextColor; // 111 111 11
 
 
 
-
+//Main Function start
 
 // Clear screen to background color
 for(int x = 0; x < (108*108); x++){
@@ -192,10 +192,10 @@ while (true) {
 
 
 while (true){
-
+//halt the computer
 }
 
-
+//Main function end.
 
 inline int get_color(int r, int g, int b) {
     return (r / 8 << 10) + (g / 8 << 5) + (b / 8);
